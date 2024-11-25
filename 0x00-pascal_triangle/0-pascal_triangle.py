@@ -6,7 +6,7 @@ pascal_triangle: creates the mentioned triangle.
 Usage:
     Import and use it.
 """
-def pascal_triangle(n):
+def pascal_triangle(rows):
     """
     name: pascal_triangle
     Returns a Pascal Triangle
@@ -16,7 +16,7 @@ def pascal_triangle(n):
     Returns:
         list: list of integers
     """
-     triangle = []
+    triangle = []
     if rows > 0:
         triangle.append([1])
         for row in range(1, rows):
@@ -40,5 +40,5 @@ if __name__ == "__main__":
         for row in triangle:
             print(row)
 
-    result = generate_pascal_triangle(5)
+    result = pascal_triangle(5)
     display_triangle(result)
