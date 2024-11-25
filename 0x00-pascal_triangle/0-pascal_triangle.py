@@ -31,14 +31,8 @@ def pascal_triangle(rows):
             triangle.append(current_row)
     return triangle
 
-
 if __name__ == "__main__":
     """
-    Testing the Pascal's Triangle generation.
+    Testing
     """
-    def display_triangle(triangle):
-        for row in triangle:
-            print(row)
-
-    result = pascal_triangle(5)
-    display_triangle(result)
+    print_triangle(pascal_triangle(5))
