@@ -6,6 +6,8 @@ pascal_triangle: creates the mentioned triangle.
 Usage:
     Import and use it.
 """
+
+
 def pascal_triangle(rows):
     """
     name: pascal_triangle
