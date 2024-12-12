@@ -1,4 +1,13 @@
+#!/usr/bin/python3
+"""
+Prime Game
+"""
+
+
 def isWinner(x, nums):
+    """
+    Prime Game
+    """
     if x <= 0 or not nums:
         return None
 
