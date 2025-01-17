@@ -3,6 +3,7 @@
 needed to meet a given amount total
 """
 
+
 def makeChange(coins, total):
     """Return fewest number of coins needed to meet total
     if total is 0 or less, -1 if total cannot be met
@@ -22,4 +23,3 @@ def makeChange(coins, total):
 
     change = change if change_left == 0 else -1
     return change
-
