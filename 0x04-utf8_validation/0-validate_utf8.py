@@ -4,6 +4,8 @@
 """
 UTF-8 validation module.
 """
+
+
 def validUTF8(data):
     """
     this checks if a list of integers are valid UTF-8 codepoints.
