@@ -61,5 +61,3 @@ def validUTF8(data):
         else:
             return False
     return True
-                                                                                                        return False
-                                                                                                        return True
